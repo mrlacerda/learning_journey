@@ -17,8 +17,8 @@ I am a professional transitioning into the Cybersecurity field, bridging a solid
 | Language | Proficiency Level | Context |
 | :--- | :--- | :--- |
 | **Portuguese** | Native | Brazil |
-| **English** | Professional / Fluent | Living & Working in Canada (CELPIP Focused) |
-| **French** | Intermediate / Advanced | TCF Candidate |
+| **English** | Professional / Fluent | Living & Working in Canada (CELPIP Grade 8) |
+| **French** | Intermediate / Advanced | TCF NCLC 8 |
 
 ---
 
