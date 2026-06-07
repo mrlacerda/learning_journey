@@ -1,0 +1,68 @@
+# Bandit Level 0 - Write-up
+
+## 🇧🇷 Português (Brasil)
+
+**Solução:**
+Para solucionar o presente problemas, devemos utilizar o comando ssh e especificar a porta. Além disso, considerando que, provavelmente, o nome do usuário da sua máquina é diferente do username proposto pelo jogo, devemos utilizar uma sintaxe na qual o usuário deve ser especificado. Ficando, portanto, desta forma:
+
+`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
+
+Decompondo o código, teremos:
+- **ssh** - para estabelecer uma comunicação secure shell (SSH) com o servidor.
+- **-p** - flag necessária para especificar a porta lógica que queremos acessar.
+- **2220** - o número da porta que será acessada em função da flag -p.
+- **bandit0** - o username necessário para acessar o servidor. Caso deixássemos em branco, o servidor usaria a identificação do seu username registrado na máquina ou rede que você utilizar.
+- **@...** - o endereço do servidor solicitado.
+- **utilizador@host**
+
+**O que aprendi com este exercício:**
+- Significado de SSH e sua importância na comunicação de redes.
+- A utilização do comando SSH no Linux e algumas flags, como -p ou -v.
+- Como específicar uma porta lógica
+- Como especificar um usuário ao acessar um servidor SSH.
+
+---
+
+## 🇬🇧 English
+
+**Solution:**
+To solve the present problem, we must use the ssh command and specify the port. Furthermore, considering that, likely, your machine's username is different from the username proposed by the game, we must use a syntax in which the user must be specified. Resulting, therefore, in this way:
+
+`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
+
+Decomposing the code, we have:
+- **ssh** - to establish a secure shell (SSH) communication with the server.
+- **-p** - flag necessary to specify the logical port we want to access.
+- **2220** - the number of the port that will be accessed due to the -p flag.
+- **bandit0** - the username necessary to access the server. If we left it blank, the server would use the identification of your username registered on the machine or network you use.
+- **@...** - the address of the requested server.
+- **user@host**
+
+**What I learned from this exercise:**
+- Meaning of SSH and its importance in network communication.
+- Using the SSH command in Linux and some flags, such as -p or -v.
+- How to specify a logical port
+- How to specify a user when accessing an SSH server.
+
+---
+
+## 🇫🇷 Français
+
+**Solution :**
+Pour résoudre le problème actuel, nous devons utiliser la commande ssh et spécifier le port. De plus, étant donné que le nom d'utilisateur de votre machine est probablement différent du nom d'utilisateur proposé par le jeu, nous devons utiliser une syntaxe dans laquelle l'utilisateur doit être spécifié. Ce qui donne, donc, ceci :
+
+`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
+
+En décomposant le code, nous avons :
+- **ssh** - pour établir une communication secure shell (SSH) avec le serveur.
+- **-p** - flag nécessaire pour spécifier le port logique auquel nous voulons accéder.
+- **2220** - le numéro du port auquel on accède via la flag -p.
+- **bandit0** - le nom d'utilisateur nécessaire pour accéder au serveur. Si nous le laissions vide, le serveur utiliserait l'identification de votre nom d'utilisateur enregistré sur la machine ou le réseau que vous utilisez.
+- **@...** - l'adresse du serveur demandé.
+- **utilisateur@hôte**
+
+**Ce que j'ai appris avec cet exercice :**
+- Signification du SSH et son importance dans la communication réseau.
+- L'utilisation de la commande SSH sous Linux et quelques flags, comme -p ou -v.
+- Comment spécifier un port logique
+- Comment spécifier un utilisateur lors de l'accès à un serveur SSH.
